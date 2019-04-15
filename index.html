@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Event creator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <img src="images/img1.jpg">
+
+    <div class="box">
+        <label>
+            <textarea class="event" minlength="10" spellcheck="true" rows="3"
+                placeholder='Wpisz nazwę wydarzenia &#10 np.: "Urodziny Marty są za:", "Jesteśmy małżeństwem od:", "Do emerytury zostało jeszcze:" ...'></textarea>
+        </label>
+        <label>
+            <span class="firstSpan">Data i godzina</span>
+            <input type="text" class="date" placeholder="RRRR-MM-DD GG-MM" />
+        </label>
+        <label>
+            <span class="secondSpan" id="changeFont">Czcionka</span>
+            <button class="font" id="1"> A </button>
+            <button class="font" id="2"> B </button>
+            <button class="font" id="3"> C </button>
+            <button class="font" id="4"> D </button>
+            <button class="font" id="5"> E </button>
+        </label>
+        <label>
+            <span class="secondSpan" id="fotoChoice">Zdjęcie</span>
+            <button data-key="1">1</button>
+            <button data-key="2">2</button>
+            <button data-key="3">3</button>
+            <button data-key="4">4</button>
+            <button data-key="5">5</button>
+            <button data-key="6">6</button>
+            <button data-key="7">7</button>
+            <button data-key="8">8</button>
+            <button data-key="9">9</button>
+            <button data-key="10">10</button>
+        </label>
+        <label>
+            <button class="start" type="button">Zaczynamy!</button>
+        </label>
+    </div>
+
+    <script type="module" src="event.js"></script>
+
+</body>
+
+</html>
