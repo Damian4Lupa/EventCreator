@@ -4,4 +4,4 @@ Flexible program for creating any event. You enter the name of the event (birthd
 
 ### Look how it looks
 
-https://damian4lupa.github.io/EventCreator/
+https://damian4lupa.github.io/event-creator/
